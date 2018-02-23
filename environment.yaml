@@ -1,0 +1,20 @@
+name: resample
+channels:
+    - conda-forge
+dependencies:
+    # pyccd deps
+    - numpy
+    - scipy
+    - scikit-learn
+    - click
+    - click-plugins
+    - cachetools
+    - pyyaml
+    # read / resample data
+    - xarray
+    # notebook and visualize
+    - jupyter
+    - notebook
+    - matplotlib
+    - pip:
+        - git+https://github.com/USGS-EROS/lcmap-pyccd.git
